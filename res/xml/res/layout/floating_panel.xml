@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#CC000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/drag_bar"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:background="#FF4444"
+        android:gravity="center"
+        android:text="FREE THUNDER - Drag Me"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/toggle_esp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESP (Boxes + Lines)"
+        android:textColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/toggle_aimbot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aimbot (Auto Headshot)"
+        android:textColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/toggle_damage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="×10 Damage (Root Only)"
+        android:textColor="#AAAAAA"
+        android:enabled="false" />
+
+    <Switch
+        android:id="@+id/toggle_fly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fly Mode (Root Only)"
+        android:textColor="#AAAAAA"
+        android:enabled="false" />
+
+</LinearLayout>
